@@ -1,0 +1,11 @@
+https://www.youtube.com/watch?v=I2UBjN5ER4s&ab_channel=BrianDesign
+
+//seleccionar una carpeta
+C:\Users\USUARIO\Desktop\fabi\portafolio\react\project1
+abrir git bash
+
+// se crea el projecto
+npx create-react-app react-website-yt-1
+
+
+
