@@ -19,6 +19,16 @@ Administrativo
 - Área
 - Experiencia previa
 
+se solicita:
+
+Las clases 
+Profesional, 
+Administrativo 
+y Cliente 
+
+deben extender desde la 
+clase Usuario.
+
 
 
 
