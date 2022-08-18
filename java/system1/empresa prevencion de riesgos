@@ -1,10 +1,23 @@
-conocimientos 
+conocimientos :
 
 poo
 Herencia
 interfaces
 polimorfismo
 
+bibliografia :
+
+https://docs.oracle.com/javase/tutorial/
+http://www.it.uc3m.es/java/gitt/resources/static/index_es.html
+https://www.lucidchart.com/pages/es/tutorial-de-diagrama-de-clases-uml
+https://www.arquitecturajava.com/java-polimorfismo-herencia-y-simplicidad/
+
+
+Codifica clases en lenguaje Java 
+utilizando interfaces para resolver un problema de 
+polimorfismo de baja complejidad
+
+requerimientos:
 
 desarrollar un sistemas permita administrar los principales procesos que se llevan a cabo en ella día a día. 
 Como parte de las entidades que conforman el proyecto
@@ -52,7 +65,7 @@ debe desplegar la información
 
 del método correspondiente al padre, y los datos expuestos en las clases hijas.
 
-Cree la clase Listado, la que debe tener declarada una lista objetos de la clase 
+Cree la cly cinco instancias de diferentes tipos de usuariosase Listado, la que debe tener declarada una lista objetos de la clase 
 Usuario
 
 representada a través de la interface Asesoria
@@ -60,6 +73,20 @@ En la clase Listado debe tener dos métodos: uno para agregar un elemento al lis
 
 y otro que permita llamar al método analizarUsuario() de todas las instancias 
 registradas en el listado
+
+Finalmente, cree una clase con un método main().
+En ella se debe crear una instancia  de la clase Listado
+
+y cinco instancias de diferentes tipos de usuarios
+Se deben 
+agregar las instancias al listado de la clase guía
+
+y llamar al método que despliega los datos
+Como entregable de este ejercicio, se solicita un proyecto Java comprimido
+*.rar o *.zip.
+ 
+
+
 
 
 
