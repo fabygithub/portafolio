@@ -1,4 +1,12 @@
-que le permita administrar los principales procesos que se llevan a cabo en ella día a día. 
+conocimientos 
+
+poo
+Herencia
+interfaces
+polimorfismo
+
+
+desarrollar un sistemas permita administrar los principales procesos que se llevan a cabo en ella día a día. 
 Como parte de las entidades que conforman el proyecto
 se establecieron la clase Usuario
 a que contiene los datos de quienes tienen acceso a la plataforma
@@ -28,6 +36,56 @@ y Cliente
 
 deben extender desde la 
 clase Usuario.
+
+Crear la interface Asesoria
+la cual debe tener definido el método 
+analizarUsuario()
+
+La clase Usuario debe implementar 
+la interface anterior. 
+
+En la clase padre, el método analizarUsuario()
+mostrar el nombre de usuario
+
+En las clases hijas, el método analizarUsuario() 
+debe desplegar la información 
+
+del método correspondiente al padre, y los datos expuestos en las clases hijas.
+
+Cree la clase Listado, la que debe tener declarada una lista objetos de la clase 
+Usuario
+
+representada a través de la interface Asesoria
+En la clase Listado debe tener dos métodos: uno para agregar un elemento al listado
+
+y otro que permita llamar al método analizarUsuario() de todas las instancias 
+registradas en el listado
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
