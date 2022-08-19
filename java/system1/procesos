@@ -18,3 +18,13 @@ commit and push : next
 ingresar el usuario y la contraseña
 
 How to Add Git Credentials in Eclipse? - GeeksforGeeks
+
+From git side settings
+developer settings
+Personal access tokens
+generate new token
+copy that token and use that token as password.
+
+
+
+
