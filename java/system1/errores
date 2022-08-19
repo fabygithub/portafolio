@@ -9,7 +9,10 @@ https://github.com/fabygithub/portafolio.git
 configurar el repositorio local
 C:\Users\USUARIO\git\portafolio
 
-Invalid path: websites/website1/Desarrollo Website Organizacional:
+Invalid path: websites/website1/Desarrollo Website Organizacional: = el error de debe a los espacios
+o a los : puntos 
+
+Eclipse:File >Team> Share Project button is disabled : necesitas abrir el projecto
 
 
 
