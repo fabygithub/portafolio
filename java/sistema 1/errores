@@ -1,2 +1,27 @@
 The import javax.servlet cannot be resolved
 
+https://stackoverflow.com/questions/4119448/the-import-javax-servlet-cant-be-resolved
+
+
+Right-click the project, click Properties.
+Choose Java Build Path.
+Click the Libraries tab
+Click Add External JARs...
+Browse to find servlet-api.jar and select it.
+Click OK to update the build path.
+
+http://www.java2s.com/Code/Jar/s/Downloadservletapijar.htm
+descargar la libreria
+
+javax.servlet.jsp.PageContext cannot be resolved to a type
+
+
+
+
+
+
+
+
+
+
+
