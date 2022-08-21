@@ -1,1 +1,42 @@
+The import javax.servlet cannot be resolved
+
+https://stackoverflow.com/questions/4119448/the-import-javax-servlet-cant-be-resolved
+
+
+Right-click the project, click Properties.
+Choose Java Build Path.
+Click the Libraries tab
+Click Add External JARs...
+Browse to find servlet-api.jar and select it.
+Click OK to update the build path.
+
+http://www.java2s.com/Code/Jar/s/Downloadservletapijar.htm
+descargar la libreria
+
+javax.servlet.jsp.PageContext cannot be resolved to a type
+https://stackoverflow.com/questions/8669387/javax-servlet-jsp-pagecontext-cannot-be-resolved-to-a-type
+
+
+javax.servlet.jsp.JspException cannot be resolved to a type
+
+You'll need to import in your project the JSP APIs, which is not included in Servlet-api
+
+jsp-api.jar
+http://www.java2s.com/Code/Jar/j/Downloadjspapi21jar.htm
+
+procesos : crear un paquete llamado interfaz
+crear una intefaz para la clase capacitacion
+
+debe declara 2 metodos
+retornar una lista de objetos de capacitacion
+el metodo no tiene argumentos
+
+otro metodo tipo capacitacion que registre una capacitacion 
+en el sistema no es necesario que lo guarde
+
+
+
+
+
+
 
