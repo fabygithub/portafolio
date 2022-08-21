@@ -34,6 +34,41 @@ el metodo no tiene argumentos
 otro metodo tipo capacitacion que registre una capacitacion 
 en el sistema no es necesario que lo guarde
 
+crear otro paquete implementacion 
+java class extends interface
+
+la inferfaz extiende de la interfaz 
+la clase de la clase
+
+The type Capacitacion cannot be a superinterface of icapacitacion; a superinterface must be an interface
+cannot be a superinterface must be an interface
+
+java class implements 2 interfaces
+https://stackoverflow.com/questions/21263607/can-a-normal-class-implement-multiple-interfaces
+
+the type Implementacion must implement the inherited abstract method
+
+@Override
+	public void registrarObjeto(Capacitacion cap) {
+		// TODO Auto-generated method stub	
+	}
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
 
 
 
