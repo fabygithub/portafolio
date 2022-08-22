@@ -1,3 +1,7 @@
+fuente:
+
+https://rdf4j.org/documentation/tutorials/maven-eclipse-project/
+
 how to run a sping project
 how to run a spring project in eclipse
 how to run a maven project in eclipse
@@ -73,6 +77,25 @@ project configuration file called pom.xml
 
 Configuring the Java compiler
 Copy-paste (or type if you prefer) the following section into the xml file
+
+You do this by right-clicking on your project (in the project explorer), and then selecting 
+‘Maven’ -> ‘Update Project…':
+
+Right-click on src/main/java
+crear una nueva clase en el paquete
+
+set the package name to 
+org.example
+
+
+the class name to HelloRDF4J
+the option public static void main (String[] args) is checked:
+
+
+Repository rep = new SailRepository(new MemoryStore());
+
+importar las carpetas correctas
+import org.eclipse.rdf4j.model.Namespace;
 
 
 
