@@ -1,0 +1,50 @@
+The import org.springframework cannot be resolved
+https://stackoverflow.com/questions/19871437/the-import-org-springframework-cannot-be-resolved
+
+Add these dependencies
+
+generar projecto
+https://start.spring.io/
+
+
+dependencias spring web
+https://www.geeksforgeeks.org/how-to-run-your-first-spring-boot-application-in-eclipse-ide/
+
+You may refer to this article Create and Setup Spring Boot Project 
+in Eclipse IDE and create your first Spring Boot Application in Eclipse IDE.
+
+
+Step 2: Add the spring-web dependency in your pom.xml file. 
+Go to the pom.xml file inside your project and add the following spring-web dependency.
+
+<dependency>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-web</artifactId>
+</dependency>
+
+Source folder is not a Java project.
+Project is not a Java project. eclipse
+
+This project is not configured to use project facets. 
+Converting this project to faceted form will allow you to easily 
+control the available technologies.
+
+it's a very common issue with 
+people who new to Eclipse with Maven. 
+To fix just follow steps below:
+
+Select the project in Eclipse
+Right clich to open context menu.
+Select Maven/Update Project ( or Alt + F5)
+Elipse then will reload/update 
+new dependencies for you.
+
+
+
+
+
+
+
+
+ 
+
