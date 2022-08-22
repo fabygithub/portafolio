@@ -1,3 +1,6 @@
+fuente:
+https://www.geeksforgeeks.org/how-to-create-and-setup-spring-boot-project-in-eclipse-ide/
+
 The import org.springframework cannot be resolved
 https://stackoverflow.com/questions/19871437/the-import-org-springframework-cannot-be-resolved
 
@@ -38,6 +41,58 @@ Right clich to open context menu.
 Select Maven/Update Project ( or Alt + F5)
 Elipse then will reload/update 
 new dependencies for you.
+
+spring select run as
+How to run Spring Boot web application in Eclipse itself?
+
+In eclipse Project Explorer, 
+right click the project name -> 
+select "Run As" -> "Maven Build..."
+
+spring-boot:run
+Tomcat initialized with port(s): 8080 (http)
+
+Whitelabel Error Page
+This application has no explicit mapping 
+
+This application has no explicit mapping for /error
+Web server failed to start. Port 8080 was already in use.
+
+
+Identify and stop the process that's listening on port 8080 
+How to kill a process which is using port 8080 in windows
+
+
+netstat  -ano  |  findstr  8080
+
+taskkill /F /PID 7200
+
+This application has no explicit mapping for /error, so you are seeing this as a fallback.
+
+Solutions
+The solution for this error is to provide a /error mapping. And you can do that in two ways.
+
+Solution 1: Implement the ErrorController interface
+
+As the MVC views have access to the exceptions and error messages, 
+it is easier to define a template and let the templating engine do the rendering for you.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
