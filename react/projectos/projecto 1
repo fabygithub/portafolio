@@ -91,3 +91,11 @@ ES7 React/Redux/GraphQL/React-Native sn
 //hay que agregar un import especial
 
 parte 1 :10
+
+navbar.js
+terminal : node
+npm install react-router-dom
+
+
+
+
