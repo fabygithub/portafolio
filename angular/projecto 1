@@ -1,0 +1,46 @@
+desestructuracion de objetos
+
+interface Reproductor {
+
+volume : number
+segundo : number
+cancion : string
+detalles : Detalles
+}
+
+
+interface detalles {
+autor : string:
+anio : string:
+}
+
+const reproductor : Reproductor = {
+  volumen : 90,
+  segundo : 36,
+  cancion : 'Mess',
+  detalles : {
+     autor : 'Ed Sheeran',
+     anio  :  2015
+     
+  }
+}
+
+console.log('El volumen actuales de')
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
