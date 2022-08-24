@@ -9,6 +9,15 @@ Group id : com.infotech.app
 Artifact id : HelloWordSpringBoot
 Packaging : jar
 
+src/main/java 
+new class
+
+package : com.infotech.app
+name : HelloWorldSpringBootApp
+finish
+
+
+
 
 
 
