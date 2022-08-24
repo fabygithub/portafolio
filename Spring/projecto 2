@@ -5,7 +5,10 @@ maven project
 create a simple project skip archetype
 use a default workspace location
 
-como adaptaria la presentacion por telefono o por carta?
+Group id : com.infotech.app 
+Artifact id : HelloWordSpringBoot
+Packaging : jar
+
 
 
 
