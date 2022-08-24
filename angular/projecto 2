@@ -1,0 +1,24 @@
+https://www.youtube.com/watch?v=P4y6QeQoKbY&ab_channel=Platzi
+
+git bash
+ng new my-app
+would you like to add angular routing ? Yes
+
+api.spacexdata.com
+https://api.spacexdata.com/v4/rockets
+
+cd my-app/
+code .
+app.module.ts
+
+import {HttpClientModule} from '@angular/common/http';
+
+imports : [
+HttpClientModule
+
+]
+
+
+
+
+
