@@ -96,6 +96,16 @@ navbar.js
 terminal : node
 npm install react-router-dom
 
+npm start
+
+className navbar,navbar-container,navbar-logo, fab fa-typo3
+copy font awesome cdn
+
+
+
+
+
+
 
 
 
