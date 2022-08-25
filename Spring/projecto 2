@@ -25,6 +25,56 @@ font
 colors and fonts
 
 
+@SpringBootApp no existe
+ir al pom.xml
+
+<parent>
+</parent>
+
+Project build error: 'parent.version' is missing
+se debe al artifact
+<artifactId>HelloWordSpringBoot</artifactId>
+
+non resolvable parent pom
+POM is not located in the parent folder
+
+https://www.baeldung.com/maven-relativepath
+
+../
+se dirige hacia otro proyecto
+
+
+ <parent>
+  
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-parent</artifactId>
+    <version>1.5.4.RELEASE</version>
+  
+  </parent> 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
