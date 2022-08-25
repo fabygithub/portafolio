@@ -56,8 +56,16 @@ se dirige hacia otro proyecto
   se necesita actualizar el pom.xml
   varias veces para resolver el error
   
+  //spring boot starter web jar is missing
+  es porque es mal escrito el paquete
   
-  
+   <dependencies>
+ 
+   <dependency>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-web</artifactId>
+   </dependency>
+ </dependencies> 
   
   
   
