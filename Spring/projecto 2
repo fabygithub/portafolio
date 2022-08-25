@@ -52,6 +52,10 @@ se dirige hacia otro proyecto
   
   </parent> 
   
+  not readable
+  se necesita actualizar el pom.xml
+  varias veces para resolver el error
+  
   
   
   
