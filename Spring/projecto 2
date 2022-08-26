@@ -78,6 +78,21 @@ se dirige hacia otro proyecto
   
   package : com.infotech.app.controller
   
+  import org.springframework.web.bind.annotation.RestController;
+  
+  import org.springframework.web.bind.annotation.RequestMapping;
+  
+  HelloWordSpringBoot 
+  refresh
+  
+  
+  HelloWordSpringBootApp.java
+  run as
+  java applicaction
+  
+  
+  
+  
   
   
   
