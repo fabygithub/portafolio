@@ -99,7 +99,19 @@ npm install react-router-dom
 npm start
 
 className navbar,navbar-container,navbar-logo, fab fa-typo3
+
 copy font awesome cdn
+in index.html
+
+Tomcat started on port(s): 8080 (http)
+
+
+
+
+
+
+
+
 
 
 
