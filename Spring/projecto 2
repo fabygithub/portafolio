@@ -90,8 +90,22 @@ se dirige hacia otro proyecto
   run as
   java applicaction
   
+  Cannot load configuration class
   
   
+Open window in menu bar 
+-> preferences 
+-> java 
+->installed jre
+add new jre which is installed in system
+(c:program_files->java->jre->bin) 
+add it.
+
+http://localhost:8080/
+
+
+
+
   
   
   
