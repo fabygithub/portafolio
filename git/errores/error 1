@@ -7,7 +7,12 @@ https://stackoverflow.com/questions/18328800/github-updates-were-rejected-becaus
 git pull origin master
 git push origin master
 
- its remote counterpart. Integrate the remote changes 
- 
+
+
+its remote counterpart. Integrate the remote changes  
+https://stackoverflow.com/questions/39399804/updates-were-rejected-because-the-tip-of-your-current-branch-is-behind-its-remot
+git push -f origin master
+
+
 
 
