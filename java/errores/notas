@@ -4,5 +4,7 @@ Java Build Path.
 https://stackoverflow.com/questions/4119448/the-import-javax-servlet-cant-be-resolved
 servlet-api.jar
 
-
+javax.servlet.jsp.JspException cannot be resolved
+ 
+ 
 
