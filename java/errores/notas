@@ -62,6 +62,13 @@ http://download.eclipse.org/releases/indigo
 Expand Web, XML, and Java EE Development
 Check JST Server Adapters (version 3.2.2)
 
+http://localhost:8080/Grupal1Unidad5/view/inicio.jsp
+http://localhost:8080/Grupal1Unidad5/view/contacto.jsp
+http://localhost:8080/Grupal1Unidad5/view/crearCapacitacion.jsp
+http://localhost:8080/Grupal1Unidad5/view/listadoUsuarios.jsp
+
+Creación de un proyecto Maven
+convert java dynamic web project to maven
 
 
 
