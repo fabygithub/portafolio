@@ -6,5 +6,13 @@ servlet-api.jar
 
 javax.servlet.jsp.JspException cannot be resolved
  
- 
+javax.servlet.jsp.PageContext cannot be resolved to a type
+http://www.java2s.com/Code/Jar/j/Downloadjavaxservletjspjar.htm
+
+javax.servlet.jsp.JspException cannot be resolved to a type
+https://blog.katastros.com/a?ID=00600-144453bd-851d-472d-8a1f-a2c9cbcb4b8b
+The jsp-api.jar package is missing from the project .
+
+http://www.java2s.com/Code/Jar/j/Downloadjspapi21jar.htm
+
 
