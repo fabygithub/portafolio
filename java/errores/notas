@@ -15,4 +15,10 @@ The jsp-api.jar package is missing from the project .
 
 http://www.java2s.com/Code/Jar/j/Downloadjspapi21jar.htm
 
+the selection cannot be run in any server
+debe estar marcado otra version de tomcat
+
+targeted runtimes disabled eclipse
+the selection cannot be run in any server
+Unable to associate project with a runtime server in eclipse IDE
 
