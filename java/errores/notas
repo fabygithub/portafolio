@@ -34,3 +34,53 @@ https://stackoverflow.com/questions/93900/cant-add-server-to-a-moved-workspace
 Go to Window/Preferences/Server/Runtime Environments, remove the broken reference.
 
 project facet java version 17 is not supported
+error in jre system library unbound
+getting JRE system library unbound error in build path
+
+build path 
+altarnate jre 
+bin
+install
+
+targeted runtimes disabled
+https://stackoverflow.com/questions/28995358/getting-project-facet-java-version-1-8-is-not-supported-in-eclipse-luna
+
+I solved the problem. 
+Go to Project Properties -> 
+Project Facets -> 
+Runtime -> 
+New -> Add a tomcat server 
+and in JRE select JRE1.8.0_XX
+
+apache tomcat 9.0 onbound
+https://stackoverflow.com/questions/52235390/apache-tomcat-9-not-showing-in-eclipse-server-runtime-environments
+
+eclipse install JST Server Adapters Extensions
+https://stackoverflow.com/questions/5066088/eclipse-wtp-plugin-no-apache-tomcat-adapter
+
+http://download.eclipse.org/releases/indigo
+Expand Web, XML, and Java EE Development
+Check JST Server Adapters (version 3.2.2)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
