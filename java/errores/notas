@@ -22,3 +22,15 @@ targeted runtimes disabled eclipse
 the selection cannot be run in any server
 Unable to associate project with a runtime server in eclipse IDE
 
+https://dlcdn.apache.org/tomcat/tomcat-9/
+https://tomcat.apache.org/download-90.cgi
+64
+C:\Program Files\Apache Software Foundation\apache-tomcat-9.0.65
+
+project facet java version 17 is not supported
+Can't add server to a moved workspace
+
+https://stackoverflow.com/questions/93900/cant-add-server-to-a-moved-workspace
+Go to Window/Preferences/Server/Runtime Environments, remove the broken reference.
+
+project facet java version 17 is not supported
