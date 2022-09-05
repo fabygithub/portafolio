@@ -70,6 +70,62 @@ http://localhost:8080/Grupal1Unidad5/view/listadoUsuarios.jsp
 Creación de un proyecto Maven
 convert java dynamic web project to maven
 
+convert maven to spring framework
+Can I Add SpringBoot Framework to Existing Maven Project
+https://stackoverflow.com/questions/29360631/can-i-add-springboot-framework-to-existing-maven-project
+
+Configura un proyecto Java utilizando el gestor Maven e incorporando las dependencias
+requeridas para obtener un proyecto Spring Framework MVC.
+
+converting a simple maven project to a spring boot project from maven
+convert java project to spring framework
+
+convert java web to spring framework
+convert java web to spring web
+
+https://www.youtube.com/watch?v=NzfC3okMfMo&ab_channel=LazyOak%7BJava%7D
+artifactid spring-boot-starter-test
+
+
+https://www.javatpoint.com/spring-boot-starter-test
+
+
+
+ <dependencies>
+  
+  <dependency>  
+<groupId>org.springframework.boot</groupId>  
+<artifactId>spring-boot-starter-test</artifactId>  
+<version>2.2.2.RELEASE</version>  
+<scope>test</scope>  
+</dependency>   
+
+<dependency>  
+
+<groupId>org.springframework.boot</groupId>  
+<artifactId>spring-boot-starter</artifactId>  
+<version>2.2.2.RELEASE</version>  
+<scope>test</scope>  
+</dependency> 
+  
+</dependencies>
+  
+
+
+
+
+
+
+
+ <plugin>
+      
+       <groupId>org.springframework.boot</groupId>  
+       <artifactId>spring-boot-maven-plugin</artifactId>  
+      
+ </plugin>  
+
+
+
 
 
 
