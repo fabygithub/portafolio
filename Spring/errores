@@ -77,6 +77,58 @@ Solution 1: Implement the ErrorController interface
 As the MVC views have access to the exceptions and error messages, 
 it is easier to define a template and let the templating engine do the rendering for you.
 
+import org.springframework cannot be resolve even after adding dependencies
+https://repo.spring.io/ui/
+
+http://repo.spring.io/release/org/springframework/spring/ 
+
+https://stackoverflow.com/questions/62245345/i-cant-import-org-springframework-web
+
+ <dependencies>
+  
+  <dependency>  
+<groupId>org.springframework.boot</groupId>  
+<artifactId>spring-boot-starter-web</artifactId>  
+</dependency>   
+
+<dependency>  
+
+<groupId>org.springframework.boot</groupId>  
+<artifactId>spring-boot-starter-test</artifactId>  
+</dependency> 
+
+<dependency>
+    <groupId>org.springframework</groupId>
+    <artifactId>spring</artifactId>
+    <version>5.3.22</version>
+    <type>pom</type>
+</dependency>
+  
+</dependencies>
+
+
+webservlet cannot be resolved to a type spring
+
+The package javax.servlet.http is accessible from more than one module: <unnamed>, servlet.api
+hay que mover del modulopath al classpath
+
+The annotation @SpringBootApplication is disallowed for this location
+debe faltar el paquete
+
+The annotation @SpringBootApplication is disallowed for this location
+significa que la anotacion no va en ese lugar
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
