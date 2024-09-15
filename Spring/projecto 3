@@ -1,20 +1,15 @@
 https://www.youtube.com/watch?v=OFlFFJHIsKY&ab_channel=JavaGuides
-
-new
-spring starter proyect
-
+new "spring" starter proyect
 name : springboot-web-app-jsp
 type : maven
 packaging : jar
 language : java
 java version : 8
 group : net.javaguides.springboot
-
 spring web : ok
 spring boot version : 2.1.7
+next "finish"
 
-next
-finish
 
 
 
