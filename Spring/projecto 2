@@ -75,15 +75,18 @@ se dirige hacia otro proyecto
   import org.springframework.boot.autoconfigure.SpringBootApplication;
   
   void main 
-  
   SpringApplication.run(HelloWorldSpringBootApp.class, args);
   
+  import controller 
   package : com.infotech.app.controller
-  
+
+  import restcontroller
   import org.springframework.web.bind.annotation.RestController;
-  
+
+  import requestmapping
   import org.springframework.web.bind.annotation.RequestMapping;
-  
+
+
   HelloWordSpringBoot 
   refresh
   
@@ -91,7 +94,8 @@ se dirige hacia otro proyecto
   HelloWordSpringBootApp.java
   run as
   java applicaction
-  
+
+  configuration class
   Cannot load configuration class
   
   
