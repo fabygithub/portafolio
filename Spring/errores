@@ -1,46 +1,41 @@
 fuente:
-https://www.geeksforgeeks.org/how-to-create-and-setup-spring-boot-project-in-eclipse-ide/
+https://www.geeksforgeeks.org/how-to-create-and-setup-spring-boot-project-in-eclipse-ide
 
-The import org.springframework cannot be resolved
+cannot be resolved
 https://stackoverflow.com/questions/19871437/the-import-org-springframework-cannot-be-resolved
-
-Add these dependencies
 
 generar projecto
 https://start.spring.io/
 
-
 dependencias spring web
 https://www.geeksforgeeks.org/how-to-run-your-first-spring-boot-application-in-eclipse-ide/
 
-You may refer to this article Create and Setup Spring Boot Project 
+Spring Boot Project 
 in Eclipse IDE and create your first Spring Boot Application in Eclipse IDE.
 
-
-Step 2: Add the spring-web dependency in your pom.xml file. 
+Step 2: Add the spring-web dependency  
 Go to the pom.xml file inside your project and add the following spring-web dependency.
 
+add dependency
 <dependency>
     <groupId>org.springframework.boot</groupId>
     <artifactId>spring-boot-starter-web</artifactId>
 </dependency>
 
-Source folder is not a Java project.
-Project is not a Java project. eclipse
+Source folder 
+is not a Java project.
 
+Project is not 
+a Java project. eclipse
+
+use facets
 This project is not configured to use project facets. 
-Converting this project to faceted form will allow you to easily 
-control the available technologies.
 
-it's a very common issue with 
-people who new to Eclipse with Maven. 
-To fix just follow steps below:
-
+select project
 Select the project in Eclipse
+
+context menu
 Right clich to open context menu.
-Select Maven/Update Project ( or Alt + F5)
-Elipse then will reload/update 
-new dependencies for you.
 
 spring select run as
 How to run Spring Boot web application in Eclipse itself?
@@ -55,14 +50,17 @@ Tomcat initialized with port(s): 8080 (http)
 Whitelabel Error Page
 This application has no explicit mapping 
 
+explicit mapping
 This application has no explicit mapping for /error
+
+web server
 Web server failed to start. Port 8080 was already in use.
 
-
+stop process
 Identify and stop the process that's listening on port 8080 
+
+kill process
 How to kill a process which is using port 8080 in windows
-
-
 netstat  -ano  |  findstr  8080
 
 taskkill /F /PID 7200
@@ -84,9 +82,7 @@ http://repo.spring.io/release/org/springframework/spring/
 
 https://stackoverflow.com/questions/62245345/i-cant-import-org-springframework-web
 
- <dependencies>
-  
-  <dependency>  
+<dependency>  
 <groupId>org.springframework.boot</groupId>  
 <artifactId>spring-boot-starter-web</artifactId>  
 </dependency>   
@@ -106,17 +102,19 @@ https://stackoverflow.com/questions/62245345/i-cant-import-org-springframework-w
   
 </dependencies>
 
-
+type spring
 webservlet cannot be resolved to a type spring
 
+is accessible
 The package javax.servlet.http is accessible from more than one module: <unnamed>, servlet.api
-hay que mover del modulopath al classpath
 
-The annotation @SpringBootApplication is disallowed for this location
+
 debe faltar el paquete
-
 The annotation @SpringBootApplication is disallowed for this location
+
 significa que la anotacion no va en ese lugar
+The annotation @SpringBootApplication is disallowed for this location
+
 
 
 
