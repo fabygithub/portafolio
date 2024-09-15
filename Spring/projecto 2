@@ -1,8 +1,9 @@
 https://www.youtube.com/watch?v=Bro59wWFOgo&t=185s&ab_channel=KKJavaTutorials
 
-new
-maven project
+new maven project
 create a simple project skip archetype
+
+default location
 use a default workspace location
 
 Group id : com.infotech.app 
@@ -18,10 +19,9 @@ finish
 
 Inherited abstract methods
 
-windows 
-preferences
+windows preferences
 
-font
+configurar fuente font
 colors and fonts
 
 
@@ -31,7 +31,9 @@ ir al pom.xml
 <parent>
 </parent>
 
+parent.version is missing
 Project build error: 'parent.version' is missing
+
 se debe al artifact
 <artifactId>HelloWordSpringBoot</artifactId>
 
