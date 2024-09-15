@@ -1,7 +1,9 @@
+create project
 create spring framework project eclipse
 
-The server cannot be started because one or more of the ports are invalid. 
+ports are invalid. 
 Open the server editor and correct the invalid ports.
+
 
 https://stackoverflow.com/questions/59549059/the-server-cannot-started-because-one-or-more-of-the-ports-are-invalid-tomcat-i
 
@@ -17,11 +19,9 @@ Estado HTTP 404 – No encontrado
 estado http 404 – no encontrado eclipse
 
 ¿A que se debe el error Estado HTTP 404 - /manager/html en tomcat?
-
+recurso no existe
 El error 404 indica que estás intentando acceder a un recurso que no existe
-El error 404 indica que estás intentando acceder a un recurso que no existe eclipse
 
-en webapp el recurso no existe
 
 
 
